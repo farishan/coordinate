@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "uglifyjs index.js -o dist/Coordinate.js && uglifyjs index.js -c -o dist/Coordinate.min.js",
-    "doc": "rm -rf out && jsdoc --readme README.md index.js"
+    "doc": "rm -rf out && jsdoc --readme README.md -d docs index.js"
   },
   "devDependencies": {
     "jsdoc": "^3.6.7",
