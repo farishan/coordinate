@@ -8,7 +8,7 @@
  * new Coordinate({x: 5, y: 7}) // x = 5, y = 7
  * @returns {Object} Coordinate object with `x` and `y` properties
  */
- function Coordinate(...args) {
+function Coordinate(...args) {
   const a = this.adapt(...args);
   this.x = a[0];
   this.y = a[1];
